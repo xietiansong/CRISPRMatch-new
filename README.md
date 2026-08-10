@@ -87,6 +87,16 @@ Sample,Barcode_L,Barcode_R
 sample_A,ACGT,AGTC
 ```
 
+### Hi-Tom barcode reference / Hi-Tom Barcode 参考表
+
+A 192-entry Hi-Tom barcode-primer reference table is included at
+[examples/7. Com_barcode_primer for Hi-Tom.csv](<examples/7. Com_barcode_primer for Hi-Tom.csv>).
+It contains the required `Index`, `Sample`, `Barcode_L`, and `Barcode_R`
+columns and can be loaded directly by `crisprmatch-split`.
+
+仓库附带一份包含 192 组组合的 Hi-Tom Barcode 参考表。使用时建议先复制该文件，
+根据实验设计确认或修改 `Sample` 名称，再在拆分界面中加载；不要直接覆盖仓库中的参考原件。
+
 Matching behavior is preserved from the downstream optimized splitter:
 
 1. `Barcode_L` is matched directly.

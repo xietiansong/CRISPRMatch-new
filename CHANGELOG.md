@@ -14,3 +14,5 @@
 - Replaced shell-composed FLASH execution with an argument-list subprocess.
 - Excluded real sequencing data, generated files, caches, and local settings.
 - Added synthetic examples, pytest coverage, and a conda-based CI workflow.
+- Added the 192-entry `7. Com_barcode_primer for Hi-Tom.csv` table as a
+  directly loadable barcode reference under `examples/`.

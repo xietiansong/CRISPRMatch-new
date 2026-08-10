@@ -84,3 +84,17 @@ def test_truncated_fastq_is_rejected(tmp_path):
     input_path.write_text("@read\nACGT\n+\n", encoding="utf-8")
     with pytest.raises(ValueError, match="Incomplete FASTQ record"):
         demultiplex_fastq(barcode_table(), input_path, tmp_path / "output")
+
+
+def test_hi_tom_reference_table_is_valid():
+    reference = (
+        Path(__file__).parents[1]
+        / "examples"
+        / "7. Com_barcode_primer for Hi-Tom.csv"
+    )
+    table = pd.read_csv(reference)
+    normalized = validate_barcode_table(table)
+
+    assert len(normalized) == 192
+    assert normalized["Sample"].is_unique
+    assert not normalized[["Barcode_L", "Barcode_R"]].duplicated().any()
