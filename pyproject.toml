@@ -12,7 +12,7 @@ authors = [
   {name = "qyou", email = "youqi@yzu.edu.cn"},
 ]
 maintainers = [
-  {name = "xiettiansong"},
+  {name = "xietiansong"},
 ]
 keywords = ["CRISPR", "NGS", "FASTQ", "demultiplexing", "genome editing"]
 classifiers = [

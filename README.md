@@ -13,7 +13,7 @@ Its Git history identifies `qyou <youqi@yzu.edu.cn>` as the original author,
 with the repository hosted by `zhangtaolab` and the original commits dated
 2018-09-03.
 
-This downstream release is maintained by `xiettiansong`. The downstream work
+This downstream release is maintained by `xietiansong`. The downstream work
 includes:
 
 - WSL/Linux installation and a unified conda environment;
@@ -47,7 +47,7 @@ Install Miniforge, Miniconda, or Mambaforge first. Then clone this repository
 and run:
 
 ```bash
-git clone https://github.com/xiettiansong/CRISPRMatch-new.git
+git clone https://github.com/xietiansong/CRISPRMatch-new.git
 cd CRISPRMatch
 conda env create -f environment.yml
 conda activate crisprmatch
@@ -137,7 +137,7 @@ Before publishing:
 
 1. Obtain permission from the upstream copyright holder or add an agreed
    upstream license.
-2. Confirm that the repository URL points to `xiettiansong/CRISPRMatch-new`.
+2. Confirm that the repository URL points to `xietiansong/CRISPRMatch-new`.
 3. Replace the maintainer handle with the desired formal name/contact details.
 4. Run `pytest` and `pytest -m integration` in a freshly created environment.
 5. Review `git status` to ensure no FASTQ, BAM, barcode, result, or local

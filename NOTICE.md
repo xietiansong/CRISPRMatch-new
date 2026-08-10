@@ -11,7 +11,7 @@ The upstream Git history identifies the original contributor as:
 
 The downstream packaging, WSL/conda setup, dual-barcode demultiplexing changes,
 resource-path fixes, tests, and documentation are maintained by
-`xiettiansong`.
+`xietiansong`.
 
 At the time this release repository was prepared, no explicit open-source
 license file was present in the checked-out upstream repository. Copyright is
