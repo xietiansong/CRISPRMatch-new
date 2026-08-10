@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# NGS and generated analysis data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bai
+*.fai
+*.sa
+*.amb
+*.ann
+*.bwt
+*.pac
+*.log
+
+# CRISPRMatch output directories
+split_sample/
+merge_sample/
+sample_result/
+result/
+tmp/
+
+# Keep the deliberately tiny synthetic FASTQ fixture.
+!examples/synthetic.fastq

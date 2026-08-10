@@ -1,0 +1,24 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+          init-shell: bash
+      - name: Run tests
+        shell: micromamba-shell {0}
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: pytest
+      - name: Verify conda executables
+        shell: micromamba-shell {0}
+        run: pytest -m integration
