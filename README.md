@@ -1,4 +1,4 @@
-# CRISPRMatch
+# CRISPRMatch-new
 
 CRISPRMatch is a Qt desktop application and a set of NGS utilities for
 high-throughput CRISPR genome-editing analysis. This repository packages the
