@@ -34,7 +34,7 @@ permission before making this derivative repository public.
 
 ## Supported environment
 
-- Linux, or Windows 11 with WSL2/WSLg
+- Linux, or Windows 11 with WSL2/WSLg ###个人电脑Windows系统请先安装WSL2
 - x86-64 conda-compatible system
 - A graphical session for the Qt interfaces
 
@@ -70,7 +70,6 @@ pytest
 ## Commands
 
 ```bash
-crisprmatch          # Main CRISPR editing analysis GUI
 crisprmatch-split    # Dual-barcode FASTQ demultiplexing GUI
 crisprmatch-merge    # Paired-end merging GUI backed by FLASH
 ```
