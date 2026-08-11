@@ -16,3 +16,5 @@
 - Added synthetic examples, pytest coverage, and a conda-based CI workflow.
 - Added the 192-entry `7. Com_barcode_primer for Hi-Tom.csv` table as a
   directly loadable barcode reference under `examples/`.
+- Added a complete Chinese tutorial for Windows users who need to install
+  WSL2, Ubuntu, Miniforge, and CRISPRMatch from scratch.

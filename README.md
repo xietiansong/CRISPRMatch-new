@@ -1,5 +1,7 @@
 # CRISPRMatch-new
 
+**中文教程：** [Windows 用户从零安装 WSL2 和 CRISPRMatch](docs/WSL_INSTALL.zh-CN.md)
+
 CRISPRMatch is a Qt desktop application and a set of NGS utilities for
 high-throughput CRISPR genome-editing analysis. This repository packages the
 original GUI as an installable Python project and adds a dual-barcode FASTQ
@@ -34,7 +36,9 @@ permission before making this derivative repository public.
 
 ## Supported environment
 
-- Linux, or Windows 11 with WSL2/WSLg ###个人电脑Windows系统请先安装WSL2
+- Linux, or Windows 11 with WSL2/WSLg
+- Windows personal computers must install WSL2 first; see the
+  [Chinese WSL2 installation tutorial](docs/WSL_INSTALL.zh-CN.md).
 - x86-64 conda-compatible system
 - A graphical session for the Qt interfaces
 
@@ -42,6 +46,9 @@ The provided environment installs Python 3.11, BWA 0.7.17, samtools 1.19,
 FLASH 1.2.11, PyQt 5.15, and all Python dependencies into one environment.
 
 ## Installation
+
+Windows 用户如果尚未安装 WSL，请先阅读
+[中文 WSL2 完整安装教程](docs/WSL_INSTALL.zh-CN.md)。
 
 Install Miniforge, Miniconda, or Mambaforge first. Then clone this repository
 and run:
